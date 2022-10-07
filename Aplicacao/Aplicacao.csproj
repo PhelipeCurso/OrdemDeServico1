@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Vvs.Domain.Seedwork" Version="1.2.5304" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Aplicacao.Dto\Aplicacao.Dto.csproj" />
   </ItemGroup>
 
