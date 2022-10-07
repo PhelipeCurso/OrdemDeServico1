@@ -6,5 +6,5 @@ ou Add-Migration v001
 v001 é o númeor da versão/nome do migration.
 
 Para atualizar para a ultima versão do banco de dados:
-PM>dotnet ef migrations add v0001 --startup-project Infraestrutura.Data.EfCore --project Infraestrutura.Data.EfCore --configuration DevEfCore
+PM>dotnet ef database update --startup-project Infraestrutura.Data --project Infraestrutura.Data--configuration Debug
 ou Update-Database
